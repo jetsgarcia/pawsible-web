@@ -1,5 +1,6 @@
 "use client";
 
+import Login from "@/components/auth/login";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
@@ -10,5 +11,9 @@ export default function Home() {
     router.push(`/dashboard`);
   }
 
-  return isLoggedIn ? goToDashboard() : <h1>Log in</h1>;
+  return (
+    <div className="grid place-items-center h-screen">
+      {isLoggedIn ? goToDashboard() : <Login />}
+    </div>
+  );
 }
