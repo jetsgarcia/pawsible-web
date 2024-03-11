@@ -80,13 +80,13 @@ export default function LoginPage() {
               <Checkbox id="terms" />
               <label
                 htmlFor="terms"
-                className="text-sm font-normal leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-gray-400"
+                className="text-sm font-normal leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-gray-500"
               >
                 Remember me
               </label>
             </div>
             <Button
-              className="text-sm textmd font-normal text-gray-400"
+              className="text-sm textmd font-normal text-gray-500"
               variant="link"
             >
               Forgot Password
