@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 
-export default function Login() {
+export default function LoginPage() {
   return (
     <>
       <div className="mx-auto flex max-h-1000 border border-blue-400 px-0 rounded-md">
